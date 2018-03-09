@@ -3,7 +3,7 @@
 To see the robot action, please download the repository and open the file home.html in Firefox  
 *Chrome does NOT work  
 
-### FORWARD KINEMATICS  
+### Forward Kinematics 
 * W A S D - Move the Robot  
 * J K - Toggle between Robot Joints  
 * U I - Increment/Decrement Rotation Angle of Selected Joint  
@@ -12,11 +12,11 @@ To see the robot action, please download the repository and open the file home.h
 
 *the blue and dark green boxes represent the rendering geoms for the robot's forward and lateral directions
 
-### INVERSE KINEMATICS  
+### Inverse Kinematics 
 * P - Make Robot Endeffector(navy blue) move towards the Target Point(light green)  
 * R F - Move the Target Position Up and Down  
 
-### PATH FINDING  
+### Path Finding  
 * M - Start the process of Path Finding
 * B N - move through the found robot path
 * Motion Planning is implemented using RRT-Connect algorithm (described by Kuffner and LaValle)
